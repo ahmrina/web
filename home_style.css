@@ -1,0 +1,46 @@
+.titulli {
+  display: flex;            
+  justify-content: center;
+  overflow-x: hidden;         
+  width: 100%;
+}
+
+.titulli img {
+  max-width: 100%;  
+  height: auto;               
+  display: block;
+}
+
+
+.table-of-contents {
+    gap: 30px;
+    float: right;
+    width: 50%;
+    background: #61778f;
+    font-size: 0.8em;
+    padding: 1em 2em;
+    margin: 0 0 0.5em 0.5em;
+}
+
+.table-of-contents {
+  position: absolute;            /* ← Makes it float over the image */
+  top: 350px;                     /* ← Distance from top of image */
+  left: 50%;                     /* ← Center horizontally */
+  transform: translateX(-50%);   /* ← True centering correction */
+  background: rgba(151, 160, 195, 0);/* ← Transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+
+  
+}
+
+.table-of-contents a {
+
+    text-decoration:none;
+    color: black;
+
+}
